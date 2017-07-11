@@ -1,0 +1,261 @@
+body{
+	background-image: url("1.jpg");
+	background-size: 1500px 1000px;
+    background-repeat: no-repeat;
+}
+#header {
+    background:linear-gradient(#003366,#99CCFF);
+    color:white;
+    text-align:center;
+    padding:5px;
+	font-family:Impact, Charcoal, sans-serif;
+}
+#nav {
+    line-height:30px;
+   background:linear-gradient(#003366,#99CCFFs);
+    height:300px;
+    width:100px;
+    float:left;
+    padding:5px; 
+}
+#section {
+    width:350px;
+    float:center;
+    padding:10px; 
+}
+#footer {
+    background-color:PaleVioletRed  ;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+	height:75px;
+	
+}
+a:link{
+	color:white;
+}
+a:visited{
+	color:grey;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: DarkGreen;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: DarkGreen;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: DarkGreen;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	font-family:Courier New;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+	font-family:Courier New;
+}
+
+.dropdown-content a:hover {background-color: DarkGreen}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+fieldset { 
+    display: block;
+    margin-left: 1px;
+    margin-right: 2px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.001em;
+    padding-right: 0.01em;
+    border: 2px groove (internal value);
+	font-family:Courier New;
+	font-size:30px;
+	color:white;
+	width:50%;
+	
+	
+}
+figcaption { 
+    display: block;
+    margin-left: 1px;
+    margin-right: 2px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.001em;
+    padding-right: 0.01em;
+    border: 2px groove (internal value);
+	font-family:Courier New;
+	font-size:30px;
+	color:white;
+	width:50%;
+	
+	
+}
+.kfont
+{font-size: 100px;
+  background: -webkit-linear-gradient(white,white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family:Courier New;
+  color:white;
+}
+input[type=text], select {
+    width: 200px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	font-family:Courier New;
+	
+}
+input[type=date], select {
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	font-family:Courier New;
+	
+}
+input[type=number], select {
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	
+	
+}
+input[type=password], select {
+    width: 200px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	font-family:Courier New;
+}
+
+input[type=submit] {
+    width: 100px;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	font-family:Courier New;
+	font-size:20px;
+	
+}
+
+input[type=reset] {
+    width: 100px;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	font-family:Courier New;
+	font-size:20px;
+}  
+input[type=button] {
+    width: 20px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: black;
+}
+input[type=reset]:hover {
+    background-color: black;
+}
+
+#divf{
+    border-radius: 5px;
+  background:linear-gradient(#003366,white);
+    padding: 40px;
+	float:right;
+}
+#div{
+	float:center;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+	height:100px;
+	border-radius:5px;
+	text-align:center;
+	
+}
+h1 {
+  font-size: 72px;
+  background: -webkit-linear-gradient(white,white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family:Courier New;
+  
+}
+h2 {
+  font-size: 72px;
+  background: -webkit-linear-gradient(white,white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family:Courier New;
+  
+}
+th, td {
+    padding:0.5px;
+    text-align: center;
+    
+}
+
+td:hover{background-color:}
+.vertical_line{height:150px; width:100px;background:#000;}
+
